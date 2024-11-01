@@ -1,0 +1,145 @@
+.home{
+    display: flex;
+    
+    
+}
+.home_h1{
+    border: 2px solid black;
+    width: 6rem;
+height: 35px;
+margin: 20px 20px 0 0;
+border-radius: 5px;
+
+
+}
+.home_h1 h1{
+font-size: 15px;
+text-align: center;
+font-weight: bold;
+
+}
+
+.home ul{
+    display: flex;
+    
+}
+.home ul li{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.home a{
+    text-decoration: none;
+    color: black;
+    
+}
+.home a:hover{
+    color: rgb(58, 58, 150);
+    font-weight: bold;
+    font-family: cursive;
+    
+}
+ .button_div{
+    margin-left: 30rem;
+    margin-top: 30px;
+    
+ }
+ .log_in{
+    border: none;
+    background-color:white;
+    cursor: pointer;
+ }
+ .sign_up{
+    background-color: blue;
+    width: 5em;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    
+
+ }
+ .log_in:hover{
+    background-color: blue;
+    width: 5em;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+
+
+ }
+ .sign_up:hover{
+    background-color: rgba(33, 33, 177, 0.918);
+
+ }
+@media (max-width: 600px)
+{
+    .button_div{
+        margin-left: 5rem;
+        margin-top: 30px;
+        
+     }
+     .home_h1{
+    border: 2px solid black;
+    width: 5rem;
+height: 30px;
+margin: 20px 20px 0 0;
+border-radius: 5px;
+font-size: 8px;
+
+
+}
+.home_h1 h1{
+font-size: 12px;
+text-align: center;
+font-weight: bold;
+
+}
+
+.home ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: -40px;
+    font-size: 15px;
+    
+}
+.home ul li{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.home a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    
+}
+.button_div{
+margin-left: 1rem;
+    margin-top: 20px;
+    
+ }
+ .log_in{
+    border: none;
+    background-color:white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+ }
+ .sign_up{
+    background-color: blue;
+    width: 4.5em;
+    height: 27px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    
+
+ }
+
+}
